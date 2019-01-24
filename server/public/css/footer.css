@@ -1,0 +1,173 @@
+#myFooter {
+  background-color: #182c39;
+  color: white;
+  padding-top: 20px;
+}
+
+iframe {
+  margin-left: 8px;
+  text-align: center;
+}
+
+#map-container {
+  height: 240px;
+  width: 99%;
+  position: relative;
+  bottom: 12px;
+  /* left: 20px; */
+  margin-bottom: 10px;
+}
+
+#myFooter .row {
+  margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+  background-color: #10222e;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: #ccc;
+}
+
+#myFooter .container {
+  width: auto;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+#myFooter .fab {
+  font-size: 30px;
+  margin-right: 15px;
+  margin-left: 20px;
+  background-color: white;
+  color: #182c39;
+  border-radius: 51%;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 31px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#myFooter .fa-facebook-f:hover {
+  /* color: #2b55ff; */
+  background-color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+  background-color: #2b55ff;
+}
+
+#myFooter .fa-instagram:hover {
+  background: -moz-linear-gradient(
+    -45deg,
+    #515bd4 10%,
+    #8134af 25%,
+    #dd2a7b 50%,
+    #feda77 75%,
+    #f58529 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #515bd4 10%,
+    #8134af 25%,
+    #dd2a7b 50%,
+    #feda77 75%,
+    #f58529 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #515bd4 10%,
+    #8134af 25%,
+    #dd2a7b 50%,
+    #feda77 75%,
+    #f58529 100%
+  );
+}
+
+#myFooter .fa-instagram:focus {
+  background: -moz-linear-gradient(
+    -45deg,
+    #515bd4 10%,
+    #8134af 25%,
+    #dd2a7b 50%,
+    #feda77 75%,
+    #f58529 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #515bd4 10%,
+    #8134af 25%,
+    #dd2a7b 50%,
+    #feda77 75%,
+    #f58529 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #515bd4 10%,
+    #8134af 25%,
+    #dd2a7b 50%,
+    #feda77 75%,
+    #f58529 100%
+  );
+}
+
+#myFooter .fa-twitter:hover {
+  background-color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+  background-color: #00aced;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center;
+  }
+  #myFooter .row {
+    margin: 0;
+  }
+}

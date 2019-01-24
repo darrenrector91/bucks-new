@@ -1,0 +1,28 @@
+.card-container {
+  margin-top: 20px;
+  margin-block-end: 100px;
+}
+
+.huntCard {
+  margin-top: 20px;
+  text-align: center;
+  height: 275px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.card-header {
+  font-weight: bold !important;
+}
+
+.card-body {
+  border-top: 2px solid #9d426b !important;
+  border-bottom: 2px solid #9d426b !important;
+}
+
+.readMoreBtn {
+  padding: 5px 22px;
+  background: #9d426b;
+  color: #fff;
+  font-style: italic;
+  text-decoration: none;
+}
